@@ -1,0 +1,32 @@
+# The URL the site will be built for
+base_url = "https://ramedico.in"
+compile_sass = true
+title = "Ramedico"
+theme = "zola-resume"
+description = "Ramedico Agencies Website"
+build_search_index = true
+taxonomies = [
+  { name = "tags", feed = true },
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "OneHalfLight"
+
+[extra]
+first_name = "Ramedico"
+last_name = "Agencies & Sales"
+address = "Prayagraj, Uttar Pradesh"
+email = "ramedico@gmail.com"
+favicon = "/favicon.ico"
+avatar = "/media/avatar.png"
+
+katex = false
+show_about = true
+show_skills = false
+show_projects = false
+show_opensource = false
+show_publications = false
+show_experience = false
+show_education = false
+show_blog = false
