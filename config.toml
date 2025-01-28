@@ -16,8 +16,9 @@ highlight_theme = "OneHalfLight"
 [extra]
 first_name = "Ramedico"
 last_name = "Agencies & Sales"
-address = "Prayagraj, Uttar Pradesh"
-email = "ramedico@gmail.com"
+address = "27/32 Sri Laxmi Narayan Market, Leader Rd, Prayagraj, Uttar Pradesh"
+email = "ramedico@ramedico.in"
+phone = "+91-9415351040"
 favicon = "/favicon.ico"
 avatar = "/media/avatar.png"
 
@@ -30,3 +31,4 @@ show_publications = false
 show_experience = false
 show_education = false
 show_blog = false
+show_inventory = true

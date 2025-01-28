@@ -10,4 +10,4 @@ Our commitment to customer satisfaction sets us apart. We take pride in deliveri
 
 Whether you're looking for high-quality medicines or reliable distribution services, Ramedico is your go-to partner for all wholesale medical needs. Discover a legacy of trust, efficiency, and excellence with us today!
 
-![Ramedico Logo](ramedico_logo.png)
+![Ramedico Logo](/media/ramedico_logo.png)
