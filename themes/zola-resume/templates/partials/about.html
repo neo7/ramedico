@@ -1,0 +1,24 @@
+{% macro display() %}
+{% set section = get_section(path="_index.md") %}
+<div class="is-flex is-flex-direction-column" style="height: 100%;">
+  <div class="flex: 1;">
+    <h1>{{ config.extra.first_name }} <span class="text-primary">{{ config.extra.last_name }}</span></h1>
+    <h2 class="subtitle">
+      <a href="https://www.google.com/maps?q=Ramedico Agencies, 27/32 Sri Laxmi Narayan Market, Leader Rd, Prayagraj, Uttar Pradesh 211003 India" target="_blank">
+        {{ config.extra.address ~ " · " }}
+      </a>
+      <br>
+      <a href="mailto:{{ config.extra.email }}">{{ config.extra.email }}
+        <br> <a href="tel:{{ config.extra.phone }}">{{ config.extra.phone }}
+      </a>
+    </h2>
+  </div>
+  <div class="is-flex is-flex-direction-column is-justify-content-center" style="flex: 1; overflow: auto;">
+    <div class="content" style="overflow: hidden; padding-top: 1.5rem;">
+      {{ section.content | safe }}
+    </div>
+    <div class="is-hidden-touch">
+    </div>
+  </div>
+</div>
+{% endmacro %}
