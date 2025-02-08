@@ -24,11 +24,5 @@ avatar = "/media/avatar.png"
 
 katex = false
 show_about = true
-show_skills = false
-show_projects = false
-show_opensource = false
-show_publications = false
-show_experience = false
-show_education = false
 show_blog = false
 show_inventory = true

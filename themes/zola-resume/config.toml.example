@@ -23,10 +23,4 @@ avatar = "/media/avatar.png"
 
 
 show_about = true
-show_skills = true
-show_projects = true
-show_opensource = true
-show_publications = true
-show_experience = true
-show_education = true
 show_blog = true
